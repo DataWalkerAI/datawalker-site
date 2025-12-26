@@ -28,3 +28,43 @@ body {
     background-color: #fafafa;
     grid-template-rows: 1fr;
 }
+
+.next-75du1d {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: min(1680px, 100vw);
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 16px;
+    padding: 10px;
+}
+
+@media (min-width: 1024px) {
+    .next-75du1d {
+        padding: 10px 32px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .next-75du1d {
+        padding: 32px 32px 16px 32px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .next-75du1d {
+        max-width: min(1744px, 100vw);
+        padding: 12px 32px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .next-75du1d {
+        padding: 12px 32px;
+    }
+}
