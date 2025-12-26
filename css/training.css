@@ -61,9 +61,12 @@ body {
         max-width: min(1744px, 100vw);
         padding: 12px 32px;
     }
-        .next-1ddvf09 {
-            grid-template-columns: fit-content(320px) 1fr;
-        }
+    .next-1ddvf09 {
+        grid-template-columns: fit-content(320px) 1fr;
+    }
+    .next-12ck1q9 {
+        margin-top: -12px;
+    }
 }
 
 @media (min-width: 1366px) {
@@ -72,6 +75,9 @@ body {
     }
     .next-1ewh3ob {
         min-height: calc(-48px + 100vh);
+    }
+    .next-12ck1q9 {
+        padding-top: 12px;
     }
 }
 
@@ -92,6 +98,22 @@ body {
     flex-grow: 1;
     position: relative;
     background-color: rgb(255, 255, 255);
+}
+
+.next-12ck1q9 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 250, 250);
+    z-index: 1001;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    transform: translateY(0px);
+    margin-top: -10px;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: transform;
 }
 
 .next-1jl3bjs {
