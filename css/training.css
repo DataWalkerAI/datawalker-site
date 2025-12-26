@@ -14,3 +14,17 @@ body {
     background-color: #fff;
     color: #2f2f37;
 }
+
+.next-9o7er8 {
+    position: relative;
+    display: grid;
+    -webkit-align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    grid-template-rows: auto 1fr;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fafafa;
+    grid-template-rows: 1fr;
+}
