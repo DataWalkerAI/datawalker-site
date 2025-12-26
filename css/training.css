@@ -93,3 +93,12 @@ body {
     position: relative;
     background-color: rgb(255, 255, 255);
 }
+
+.next-1jl3bjs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    z-index: 2;
+    background-color: rgb(245, 245, 245);
+}
