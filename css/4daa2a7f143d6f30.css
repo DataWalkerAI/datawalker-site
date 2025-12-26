@@ -1,6 +1,7 @@
+/* CSS змінні для Reach UI та інших компонентів */
 :root {
     --reach-accordion: 1;
-    --reach-listbox: 1;
+    --reach-listbox: 1; 
     --reach-menu-button: 1;
     --reach-tooltip:1
 }
