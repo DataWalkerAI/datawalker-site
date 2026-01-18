@@ -6,4 +6,4 @@ plugins: [react()],
 base: '/datawalker-site/',
 })
 // Наприклад, якщо репозиторій називається datawalker-site:
-// base: '/datawalker-site/'
+// base: '/datawalker-site/'м
