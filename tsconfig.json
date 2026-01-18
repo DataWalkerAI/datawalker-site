@@ -4,6 +4,7 @@
     "useDefineForClassFields": true,
     "module": "ESNext",
     "lib": ["ESNext", "DOM"],
+    "jsx": "react-jsx",       // <-- важливо для React 17+ та 18+
     "moduleResolution": "Node",
     "strict": true,
     "resolveJsonModule": true,
