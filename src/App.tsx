@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 
-function App() {
+export default function App() {
   useEffect(() => {
-    document.title = "DataWalker – AI Development & Consulting";
+    document.title = 'DataWalker – AI Development & Consulting';
   }, []);
 
   return (
@@ -12,5 +12,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

@@ -1,7 +1,9 @@
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-base: '/datawalker-site/', // <-- заміни на точну назву свого GitHub repo
+plugins: [react()],
+//base: '/datawalker-site/',
 })
 // Наприклад, якщо репозиторій називається datawalker-site:
 // base: '/datawalker-site/'

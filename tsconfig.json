@@ -5,6 +5,7 @@
     "module": "ESNext",
     "lib": ["ESNext", "DOM"],
     "jsx": "react-jsx",       // <-- важливо для React 17+ та 18+
+    "types": ["vite/client"],
     "moduleResolution": "Node",
     "strict": true,
     "resolveJsonModule": true,
